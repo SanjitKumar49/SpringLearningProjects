@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="org.springframework.core.convert.Property"/>
+    <fullyQualifiedTypeName name="com.springcore.ref.A"/>
+    <fullyQualifiedTypeName name="com.springocre.ci.Person"/>
+    <fullyQualifiedTypeName name="java.security.cert.Certificate"/>
+    <fullyQualifiedTypeName name="com.springocre.ci.Certi"/>
+    <fullyQualifiedTypeName name="com.springocre.ci.Addition"/>
+    <fullyQualifiedTypeName name="com.springocre.constructor.Addition"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.springcore.lifecycle.Samosa"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSOutput"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.InitializingBean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.DisposableBean"/>
+</qualifiedTypeNameHistroy>
