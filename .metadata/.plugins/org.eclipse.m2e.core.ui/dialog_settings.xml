@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\91635\Sts Project\Demo\src\main\resources\archetype-resources\src\main\java\App.java"/>
 			<item value="C:\Users\91635\Sts Project\Basic Concept\src\main\java\com\springcore\lifecycle\InterfaceUse.java"/>
 			<item value="C:\Users\91635\Sts Project\SecondProject\src\main\java\com\sanjit49\SecondProject\App.java"/>
 		</list>
@@ -27,13 +28,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.springcore.Demo"/>
+			<item value="com.sanjit549.Sanjit"/>
 		</list>
 		<list key="groupId">
-			<item value="com.springcore"/>
+			<item value="com.sanjit549"/>
 		</list>
 		<list key="artifactId">
-			<item value="Demo"/>
+			<item value="Sanjit"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,5 +70,7 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
 	</section>
 </section>

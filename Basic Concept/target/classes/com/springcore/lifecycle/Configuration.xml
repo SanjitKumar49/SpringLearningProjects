@@ -2,9 +2,12 @@
 
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-        
+    
+        <context:annotation-config />
         
 
   <bean class="com.springcore.lifecycle.XmlUse" name="s1" 
@@ -14,6 +17,10 @@
   
   <bean class="com.springcore.lifecycle.InterfaceUse" name="s2">
      <property name="price" value="20.5"/>
+  </bean>
+  
+  <bean class="com.springcore.lifecycle.AnnotationUse" name="s3">
+     <property name="subject" value="Java Programming"/>
   </bean>
 
 </beans>
