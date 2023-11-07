@@ -10,7 +10,6 @@ public class Test {
 	ApplicationContext applicationContext=new ClassPathXmlApplicationContext("com/springcore/auto/wire/anotation/autoconfig.xml");
 	   Emp emp1=applicationContext.getBean("emp1",Emp.class);
 	   System.out.println(emp1);
-	   System.out.println(emp1.toString());
 	}
 
 }
