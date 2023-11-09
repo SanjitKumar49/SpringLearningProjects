@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://____">
+
+    
+    
+    <!-- Standalone List -->
+    <util:list list-class="java.util.LinkedList" id="mybestfriends">
+    <value>Null</value>
+    <value>Null</value>
+    
+    
+    </util:list>
+    
+    <bean class="com.springcore.standalone.collection.Person" name="person1">
+    <property name="friends">
+    
+    </property>
+    </bean>
+
+</beans>

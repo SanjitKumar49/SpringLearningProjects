@@ -1,0 +1,22 @@
+package com.springcore.javaconfig;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "com.springcore.javaconfig") // when you use bean annotation then you can removie this annotation
+public class javaconfig {
+  
+	 @Bean(name = {"sanjit","nikesh","aditya"})
+	 public Student getStudent() {
+		 Student student=new Student(getSamosaPrize());
+	   return student;	 
+	 }
+	 
+	 @Bean
+	 public Samosa getSamosaPrize() {
+	   return new Samosa();	 
+	 }
+	
+}

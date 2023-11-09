@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <util:list list-class="java.util.LinkedList" id="friends">
+   <value>Sanjit</value>
+   <value>Aman</value>
+   
+   </util:list>
+
+    <!-- Define a list bean -->
+    <bean id="myList" class="java.util.LinkedList">
+        <constructor-arg>
+            <list>
+                <value>Item 1</value>
+                <value>Item 2</value>
+                <value>Item 3</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+
+</beans>

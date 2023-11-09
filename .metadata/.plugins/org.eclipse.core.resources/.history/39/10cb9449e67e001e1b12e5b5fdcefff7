@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+						http://www.springframework.org/schema/beans/spring-beans.xsd 
+						http://www.springframework.org/schema/context 
+						http://www.springframework.org/schema/context/spring-context.xsd 
+						http://www.springframework.org/schema/util 
+						http://www.springframework.org/schema/util/spring-util.xsd"> 
+	<util:set set-class="java.util.LinkedHashSet" id="phnNo"> 
+		<value>9312552334</value> 
+		<value>8723546787</value> 
+	</util:set> 
+	<util:list id="degree"> 
+		<value>BA</value> 
+		<value>MA</value> 
+	</util:list> 
+	<util:map id="courses"> 
+		<entry key="Django" value="2"/> 
+		<entry key="Bootstrap" value="1"/> 
+	</util:map> 
+	<bean class="Student" id="s"> 
+		<constructor-arg value="12" type="int"/> 
+		<constructor-arg value="Nisha"/> 
+		<constructor-arg ref="phnNo"/> 
+		<constructor-arg ref="degree"/> 
+		<constructor-arg ref="courses"/> 
+	</bean> 
+</beans>

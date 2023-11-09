@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://____">
+
+     <bean name="emp1" class="com.sanjit49.Collection.Emp">
+     
+     <property name="name" value="Sanjit"></property>
+     <property name="phones">
+        <list>
+                <value>6352016337</value>
+                <value>7382128254</value>
+                <null/>
+                
+        </list>
+     </property>
+     
+     <property name="address">
+     <set>
+              <value>Surat</value>
+              <value>Chennai</value>
+     </set>
+     </property>
+     
+     <property name="course">
+           <map> 
+                 <entry key="java" value="2Month"/>
+                 <entry key="python" value="3Month"/>
+                 
+          </map>
+     </property>
+     
+     
+     </bean>
+
+</beans>
