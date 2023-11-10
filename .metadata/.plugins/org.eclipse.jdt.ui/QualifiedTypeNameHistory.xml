@@ -31,7 +31,6 @@
     <fullyQualifiedTypeName name="com.springcore.stereotype.Teacher"/>
     <fullyQualifiedTypeName name="org.springframework.aot.AotDetector"/>
     <fullyQualifiedTypeName name="com.springcore.spel.Demo"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
     <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
@@ -43,4 +42,5 @@
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.springcore.javaconfig.Student"/>
     <fullyQualifiedTypeName name="com.springcore.javaconfig.Samosa"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
